@@ -9,10 +9,30 @@
   <body>
     <h1>Card game</h1>
     <h2>Shuffle the cards:</h2>
-    <section class="deck-container">
-        <div id="hand"></div>
+    <section class="content">
+      <section class="game-area">
+        <h2>Spiller 1</h2>
+        <img
+          id="draw"
+          src="https://deckofcardsapi.com/static/img/back.png"
+          alt="Træk et kort"
+        />
+        <div id="hand1"></div>
+        <p id="count1" style="font-size:40px;">0</p>
+      </section>
 
-        <button id="draw">Træk kort</button>
+      <section class="game-area">
+        <h2>Spiller 2</h2>
+        <img
+          id="draw2"
+          src="https://deckofcardsapi.com/static/img/back.png"
+          alt="Træk et kort"
+        />
+        <div id="hand2"></div>
+        <p id="count2" style="font-size:40px;">0</p>
+      </section>
     </section>
+
+    <p id="result" style="font-size:24px; text-align:center;"></p>
   </body>
 </html>

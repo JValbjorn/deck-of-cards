@@ -1,3 +1,33 @@
 * {
     box-sizing: border-box;
 }
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.deck {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#draw,
+#draw2 {
+  width: 120px;
+  cursor: pointer;
+}
+
+#hand1 img,
+#hand2 img {
+  width: 120px;
+}
+
+.game-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
