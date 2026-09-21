@@ -18,13 +18,13 @@
 
 #draw,
 #draw2 {
-  width: 120px;
+  width: 170px;
   cursor: pointer;
 }
 
 #hand1 img,
 #hand2 img {
-  width: 120px;
+  width: 170px;
   margin: 5px;
 }
 
